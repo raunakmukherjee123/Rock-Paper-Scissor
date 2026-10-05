@@ -34,3 +34,29 @@ img{
   gap: 3rem;
   margin-top: 5rem;
 }
+
+.score-board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+#user-score,#machine-score{
+font-size: 4rem;
+}
+
+#msg{
+  margin-top: 5rem;
+  background-color: #081b31;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+}
+
+.message-container{
+  margin-top: 5rem;
+}
