@@ -55,6 +55,7 @@ font-size: 4rem;
   font-size: 2rem;
   display: inline;
   padding: 1rem;
+  border-radius: 1rem;
 }
 
 .message-container{
