@@ -15,8 +15,7 @@ return options[randomId];
 
 const drawGame=()=>{
   msg.innerText="Match is draw"
-  // msg.classList.remove("win");
-  // msg.classList.remove("lose");
+   msg.classList.remove("win","lose");
 }
 
 const showWinner=(userWin)=>{

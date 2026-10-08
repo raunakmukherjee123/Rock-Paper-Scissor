@@ -62,10 +62,10 @@ font-size: 4rem;
   margin-top: 5rem;
 }
 
-.win{
+#msg.win{
   background-color: rgb(8, 128, 8);
 }
 
-.lose{
+#msg.lose{
   background-color: rgb(236, 70, 70);
 }
