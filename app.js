@@ -15,18 +15,22 @@ return options[randomId];
 
 const drawGame=()=>{
   msg.innerText="Match is draw"
+  // msg.classList.remove("win");
+  // msg.classList.remove("lose");
 }
 
 const showWinner=(userWin)=>{
   if(userWin===true)
   {
     msg.innerText="You win !!"
+    msg.classList.add("win");
     userScore++;
     userScorePara.innerText=userScore;
   }
   else
   {
      msg.innerText="You lose"
+     msg.classList.add("lose")
      machineScore++;
      machineScorePara.innerText=machineScore;
   }

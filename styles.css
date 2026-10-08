@@ -61,3 +61,11 @@ font-size: 4rem;
 .message-container{
   margin-top: 5rem;
 }
+
+.win{
+  background-color: rgb(8, 128, 8);
+}
+
+.lose{
+  background-color: rgb(236, 70, 70);
+}
